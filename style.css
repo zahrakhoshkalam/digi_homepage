@@ -38,11 +38,11 @@ footer, header, hgroup, menu, nav, section {
 {
   margin-top:5px;
   margin-left: 15px;
+  height: 40px;
+  width: 80px;
 
 }
-nav{
-    background-color: white;
-}
+
 .search_bar{
     box-sizing: border-box;
     padding: 10px;
@@ -55,6 +55,10 @@ nav{
     background-color:  rgba(231, 231, 231, 0.8);
     
     
+}
+.buy_icon{
+    width:40px;
+    height:40px;
 }
 .top_left{
     float: left;
@@ -84,7 +88,7 @@ ul{
     margin-right: 20px;
 }
 
-img#gif{
+.gif{
     
     margin:15px 7px 15px 5px ;
     border-radius: 16px;
@@ -99,26 +103,24 @@ nav{
     background-color: white;
     height: 30px;
 }
-#outlet{
+.outlet{
     display: inline;
     border-radius: 16px;
     margin: 10px;
 
 }
 
-#fidbio{
+
+.fidbio{
     border-radius: 16px;
     max-width:32% ;
     margin: 10px 0px 10px 10px;
     float: left;
     display: inline-flexbox;
 }
-#digistyle{
+.digistyle{
     border-radius: 16px;
     max-width:32%;
     margin: 240px 15px 0px 4px;
     position: absolute;
-
-
-
 }
