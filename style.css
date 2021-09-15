@@ -164,9 +164,7 @@ ul {
   margin: 15px 16px 15px 5px;
   border-radius: 16px;
   /*display: block;*/
-  grid-column-start: 1;
-  grid-row-start: 1;
-  grid-column-end: 2;
+  grid-area: 1 / 1 /1/ 2;
   max-width: 140%;
 }
 .main_top {
@@ -176,7 +174,7 @@ ul {
   grid-template-rows: 105px 437px 437px;
 }
 
-nav {
+.nav {
   display: block;
   background-color: white;
   height: 30px;
@@ -191,16 +189,11 @@ nav {
   grid-area: 2 / 2 / 3/ 3;
   border-radius: 16px;
   width: 100%;
-  margin: 10px 0px 10px 10px;
-  justify-content: end;
-  align-content: stretch;
+  margin: 10px 0px 10px 30px;
 }
 .digistyle {
   grid-area: 2 / 2 / 4/ 3;
   border-radius: 16px;
   width: 100%;
-
-  margin: 240px 0px 0px 4px;
-
-  justify-content: end;
+  margin: 240px 0px 0px 30px;
 }
